@@ -1,0 +1,162 @@
+/** @format */
+:root {
+  --primary-font: "Indie Flower", cursive;
+  --secondary-font: "Luckiest Guy", cursive;
+  --branding-color: rgb(19, 63, 146);
+  --good-color: rgb(104, 16, 92);
+  --amenable-color: rgb(187, 207, 238);
+}
+
+h1,
+h2,
+h3,
+div.back-link,
+#comments {
+  padding: 5px;
+  text-align: center;
+}
+
+h1 {
+  font-family: var(--primary-font);
+  font-size: 75px;
+  color: var(--branding-color);
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  font-size: 50px;
+  color: var(--good-color);
+  margin: 10px;
+}
+
+h3 {
+  font-family: var(--primary-font);
+  font-size: 40px;
+  color: var(--branding-color);
+  margin: 10px;
+}
+
+button.surprise {
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+  border: 2px solid var(--good-color);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+button.surprise:hover {
+  box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.4);
+  border: 2.5px solid var(--good-color);
+  transition: all 100ms ease-in-out;
+}
+
+a.surprise {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: var(--good-color);
+}
+
+a.surprise:hover {
+  font-family: var(--secondary-font);
+}
+
+#comments {
+  font-family: var(--primary-font);
+  color: var(--branding-color);
+  font-size: 25px;
+  margin: 10px;
+}
+
+.grid-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 60px;
+  border: 2px solid var(--branding-color);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#reveal-div {
+  text-align: center;
+}
+
+#reveal-button {
+  border: 1px solid #fff;
+  background: #fff;
+  margin: 10px;
+}
+#reveal-button:hover {
+  cursor: default;
+}
+
+#reveal-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--primary-font);
+  font-size: 25px;
+}
+
+#reveal-link:hover {
+  cursor: default;
+}
+
+#reveal-link.visible {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-size: 25px;
+}
+#reveal-link.visible:hover {
+  cursor: pointer;
+}
+
+button .visible {
+  border: 2px solid var(--branding-color);
+  background: var(--amenable-color);
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+button .visible:hover {
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.button-back {
+  border: 2px solid var(--branding-color);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background: var(--amenable-color);
+}
+
+.button-back:hover {
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  transition: all 200ms ease-in-out;
+}
+
+.back-a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--branding-color);
+  font-weight: 600;
+}
+.back-a:hover {
+  font-family: var(--primary-font);
+  font-size: 15px;
+}
+
+div.credits {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
