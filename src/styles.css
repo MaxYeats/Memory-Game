@@ -160,3 +160,7 @@ img {
   height: auto;
   border-radius: 10px;
 }
+.Mia-pic {
+  display: block;
+  margin: 0 auto;
+}
