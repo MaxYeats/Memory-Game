@@ -2,12 +2,85 @@
 
 const cardArray = [
   {
-    name: "EV1",
-    img: "pics/EV1r.jpg",
+    name: "cardbox",
+    img: "pics/cardbox.jpg",
   },
   {
-    name: "EV2",
-    img: "pics/EV2r.jpg",
+    name: "corn",
+    img: "pics/corn.jpg",
+  },
+  {
+    name: "cracker",
+    img: "pics/cracker.jpg",
+  },
+  {
+    name: "egg",
+    img: "pics/egg.jpg",
+  },
+  {
+    name: "feather",
+    img: "pics/feather.jpg",
+  },
+  {
+    name: "leafy",
+    img: "pics/leafy.jpg",
+  },
+  {
+    name: "sardines",
+    img: "pics/sardines.jpg",
+  },
+  {
+    name: "squash",
+    img: "pics/squash.jpg",
+  },
+  {
+    name: "carrots",
+    img: "pics/carrots.jpg",
+  },
+  {
+    name: "curtains",
+    img: "pics/curtains.jpg",
+  },
+  {
+    name: "cardbox",
+    img: "pics/cardbox.jpg",
+  },
+
+  {
+    name: "corn",
+    img: "pics/corn.jpg",
+  },
+  {
+    name: "cracker",
+    img: "pics/cracker.jpg",
+  },
+  {
+    name: "egg",
+    img: "pics/egg.jpg",
+  },
+  {
+    name: "feather",
+    img: "pics/feather.jpg",
+  },
+  {
+    name: "leafy",
+    img: "pics/leafy.jpg",
+  },
+  {
+    name: "sardines",
+    img: "pics/sardines.jpg",
+  },
+  {
+    name: "squash",
+    img: "pics/squash.jpg",
+  },
+  {
+    name: "carrots",
+    img: "pics/carrots.jpg",
+  },
+  {
+    name: "curtains",
+    img: "pics/curtains.jpg",
   },
 ];
 
