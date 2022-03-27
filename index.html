@@ -6,49 +6,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta type="description" content="Mia's secret" />
-    <title>📷The secret</title>
+    <meta type="description" content="Memory Game board" />
+    <title>🧠Mia's Memory Game</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Luckiest+Guy&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <h1>Mia's secret</h1>
-    <div>
-      <img
-        src="pics/Mia-panetone.jpg"
-        alt="Mia"
-        title="Mia loves sniffing panetones"
-        class="Mia-pic"
-      />
-    </div>
-    <div class="back-link">
-      <button class="button-back">
-        <a href="/grid.html" class="back-a" title="Link to main page"
-          >Back to main page</a
+    <h2>Memory Game</h2>
+    <h3>Mia's favorite things</h3>
+    <h3>Score: <span id="result"></span></h3>
+    <div id="comments"></div>
+
+    <div id="reveal-div">
+      <button id="reveal-button">
+        <a href="mia.html" id="reveal-link" alt="link to Mia's secret"
+          >Mia's secret</a
         >
       </button>
-      <div class="credits">
-        Hi! I am Mia,
-        <a
-          href="https://www.linkedin.com/in/melissa-tseng-coder"
-          target="_blank"
-          alt="link to Melissa's LinkedIn profile"
-          title="link to Melissa's LinkedIn profile"
-          >Melissa'</a
-        >s cat. I love the smell of a Brazilian panettone, but I'm not allowed
-        to try it because it's not good for me. In fact my favorite food is corn
-        but Melissa could not get a good picture of me eating corn, I looked
-        more like a scary ocelot. In real life I'm pretty sweet with who cares
-        about me but I can be fierce as an ocelot. This page was originally
-        built in a different format, in the form of a virtual Bday card for
-        Melissa's friends & family, and they loved it without caring much about
-        her beginner programmer skills😁 Thanks for understanding that my
-        picture above belongs to Melissa & her family and its commercial use is
-        strictly prohibited 😎
-      </div>
     </div>
+    <section class="grid-section">
+      <div id="grid"></div>
+    </section>
+    <div class="credits">
+      This page was built "for" Mia by
+      <a
+        href="https://www.linkedin.com/in/melissa-tseng-coder"
+        target="_blank"
+        alt="link to Melissa's LinkedIn profile"
+        title="link to Melissa's LinkedIn profile"
+        >Melissa T.</a
+      >
+      The picture on the flip side of the cards was sourced from
+      <a
+        href="https://www.pexels.com/photo/blue-and-red-painted-building-3164532/"
+        target="_blank"
+        alt="link to picture source"
+        title="link to source of picture on Pexel"
+        >Pexel</a
+      >, as well as every other picture in this game:
+      <a href="https://www.pexels.com/photo/yellow-corn-547263/">corn</a> ,
+      sardine, cracker, watercress, squash, eggs, feather, cardboard box except
+      for the secret picture on the next page 😎
+    </div>
+
+    <script src="src/app.js"></script>
   </body>
 </html>
